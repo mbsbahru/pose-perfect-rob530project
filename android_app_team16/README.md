@@ -46,6 +46,6 @@ For running the app via Android Studio, this application uses the following libr
         - Configuring the app *build.gradle* file\
           at the leftmost side menu make sure that **Project** tab is activated &rarr; in the *dropdown* arrow at the top left IDE window click **Project** &rarr; extend **app** by clicking at the arrow &rarr; click and open **build.gradle** in *app* directory &rarr; **remove** the line of *implementation project(path: ':opencv2')* but **keep** *implementation project(path: ':opencv')* &rarr; click menu bar **File** &rarr; **Sync Project with Gradle Files**.
         - After sucessful, do the step in the point [4](https://github.com/mbsbahru/pose-perfect-rob530project/blob/ac16694f9cce5ca201592b6c1486c34a0073577a/android_app_team16/README.md?plain=1#L33-L36).
-6) Modify and develop the Android app, commonly by modifying code in [Java]) and [XML](android_app_team16/app/src/main/res/layout) directories.
+6) Modify and develop the Android app, commonly by modifying code in [Java](android_app_team16/app/src/main/java/com/mbsbahru/na568Teamproject_MohammedAlanUsmanBahru) and [XML](android_app_team16/app/src/main/res/layout) directories.
 
 Thank you
