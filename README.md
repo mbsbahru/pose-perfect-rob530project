@@ -1,10 +1,17 @@
-# EECS568 Team16, Winter 2024
+# (Mobile Robotics - ROB530/EECS568/NAVARCH568) Team16, Winter 2024
+This project was developed as a self-directed team project during the Mobile Robotics - ROB530/EECS568/NAVARCH568 course.
+
+**Team Members:**  
+- Muhammad Bahru Sholahuddin  
+- Mohammed Buhlaigah  
+- Zih-En Tseng  
+- Usman Shahzad  
 
 ### Repository Information
-* [android_app_team16](https://github.com/zizien1019/NA568_Team16/tree/main/android_app_team16) containing the project code for building Android app using Java. The back-end codes are implemented [here](https://github.com/zizien1019/NA568_Team16/tree/main/android_app_team16/app/src/main/java/com/mbsbahru/na568Teamproject_MohammedAlanUsmanBahru). 
+* [android_app_team16](https://github.com/mbsbahru/pose-perfect-rob530project/tree/main/android_app_team16) containing the project code for building Android app using Java. The back-end codes are implemented [here](android_app_team16/app/src/main/java/com/mbsbahru/na568Teamproject_MohammedAlanUsmanBahru). 
 * [Data_visualization](https://github.com/zizien1019/NA568_Team16/tree/main/Data_visualization) containing the code and data for examining the testing.
 * [python_code](https://github.com/zizien1019/NA568_Team16/tree/main/python_code) containing the code on implementing Kalman and Particle Filter.
-* [figures](https://github.com/zizien1019/NA568_Team16/tree/main/figures) containing the figures for documentation purpose.
+* [figures](https://github.com/mbsbahru/pose-perfect-rob530project/tree/main/figures) containing the figures for documentation purpose.
  
 ## Pose Perfect - An Android Pose Estimation & Guidance App
 
@@ -42,13 +49,13 @@ In this instant the user can first segment the wanted color by **touching** the 
    
 >> If you prefer not to use the "touch" feature, you can adjust the segmentation just based on the HSV threshold. For doing this, first make all the HSV sliders ranged at their maximum (top slider to the most left and bottom slider to the most right). Then, adjust the minimum and maximum slider sequentially from **H** &rarr; **S** &rarr; **V**.
 
-![HSV Object Segmentation](https://github.com/zizien1019/NA568_Team16/assets/113637971/11ba64ab-c299-4b62-961f-ab09b91a8cc4)
+![HSV Object Segmentation](https://github.com/mbsbahru/pose-perfect-rob530project/blob/main/figures/HSV%20Object%20Segmentation.jpeg)
 
 
 2. **Reference Input**\
 This is used to update the object dimensions, and manually input the desired reference image using the states (euclidean distance $r$, $\phi$, $\theta$, and $\psi$). The default object size is 34.5 cm wide by 14.5 cm tall. Please change this according to your object.
 
-![Reference Input](https://github.com/zizien1019/NA568_Team16/assets/113637971/2da23e17-7d1d-43de-9681-cebac0307cc1)
+![Reference Input](https://github.com/mbsbahru/pose-perfect-rob530project/blob/main/figures/Reference%20Input.jpeg)
 
 
 3. **Pose Perfect Action**\
@@ -98,9 +105,6 @@ k_{android\_gp7} = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-If you have your intrinsic camera parameters and want to build the app via Android Studio, you can change those parameters in [these lines](https://github.com/zizien1019/NA568_Team16/blob/main/android_app_team16/app/src/main/java/com/mbsbahru/na568Teamproject_MohammedAlanUsmanBahru/MainActivity.java#L113C5-L122C96).
-
-
-* **Authors:** Muhammad Bahru Sholahuddin, Mohammed Buhlaigah, Zih-En Tseng, Usman Shahzad
+If you have your intrinsic camera parameters and want to build the app via Android Studio, you can change those parameters in [these lines](https://github.com/mbsbahru/pose-perfect-rob530project/blob/main/android_app_team16/app/src/main/java/com/mbsbahru/na568Teamproject_MohammedAlanUsmanBahru/MainActivity.java#L113C5-L122C96).
 
 
