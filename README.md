@@ -9,8 +9,8 @@ This project was developed as a self-directed team project during the Mobile Rob
 
 ### Repository Information
 * [android_app_team16](https://github.com/mbsbahru/pose-perfect-rob530project/tree/main/android_app_team16) containing the project code for building Android app using Java. The back-end codes are implemented [here](android_app_team16/app/src/main/java/com/mbsbahru/na568Teamproject_MohammedAlanUsmanBahru). 
-* [Data_visualization](https://github.com/zizien1019/NA568_Team16/tree/main/Data_visualization) containing the code and data for examining the testing.
-* [python_code](https://github.com/zizien1019/NA568_Team16/tree/main/python_code) containing the code on implementing Kalman and Particle Filter.
+* [Data_visualization](https://github.com/mbsbahru/pose-perfect-rob530project/tree/main/Data_visualization) containing the code and data for examining the testing.
+* [python_code](https://github.com/mbsbahru/pose-perfect-rob530project/tree/main/python_code) containing the code on implementing Kalman and Particle Filter.
 * [figures](https://github.com/mbsbahru/pose-perfect-rob530project/tree/main/figures) containing the figures for documentation purpose.
  
 ## Pose Perfect - An Android Pose Estimation & Guidance App
@@ -61,15 +61,15 @@ This is used to update the object dimensions, and manually input the desired ref
 3. **Pose Perfect Action**\
 This part of the app guides the user on how to achieve the correct pose. It gives the following instructions: **forward** / **back**, **up** / **down**, **right** / **left**, and **clockwise** / **counterclockwise**.
 
-![Pose Perfect Action1](https://github.com/zizien1019/NA568_Team16/assets/113637971/9b9f44c5-65a4-45b0-a7e1-a3ac6d25ded0)
+![Pose Perfect Action1](https://github.com/mbsbahru/pose-perfect-rob530project/blob/main/figures/Pose%20Perfect%20Action%201.jpeg)
 
 
 > The user can automatically selsect the new desired pose (reference pose) by clicking the *play* button (pointed by red arrow)
-![Pose Perfect Action2](https://github.com/zizien1019/NA568_Team16/assets/113637971/d05ad614-f165-4de1-b05b-6d332cc06893)
+![Pose Perfect Action2](https://github.com/mbsbahru/pose-perfect-rob530project/blob/main/figures/Pose%20Perfect%20Action%202.jpg)
 
 
 > The user can reset the desired or reference pose by clicking the *reset* button (pointed by red arrow)
-![Pose Perfect Action3](https://github.com/zizien1019/NA568_Team16/assets/113637971/0c3dc39a-9ad3-49a8-84f9-744aa0af1ff7)
+![Pose Perfect Action3](https://github.com/mbsbahru/pose-perfect-rob530project/blob/main/figures/Pose%20Perfect%20Action%203.jpg)
 
 
 ### Disclaimer
