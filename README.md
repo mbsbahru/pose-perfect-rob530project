@@ -76,7 +76,7 @@ This part of the app guides the user on how to achieve the correct pose. It give
 For correct pose estimation, the object dimension (which can be adjusted in the app) and the camera intrinsics should be defined. In this project, we use our calibrated Google Pixel 7 which has camera intrinsic parameters as:
 
 $$
-K_{android\_gp7} = \begin{bmatrix}
+K_{android\_{gp7}} = \begin{bmatrix}
     f_x & s & c_x\\
     0 & f_y & c_y\\
     0 & 0 & 1
@@ -89,7 +89,7 @@ K_{android\_gp7} = \begin{bmatrix}
 $$
 
 $$
-k_{android\_gp7} = \begin{bmatrix}
+k_{android\_{gp7}} = \begin{bmatrix}
     k_1\\
     k_2\\
     p_1\\
